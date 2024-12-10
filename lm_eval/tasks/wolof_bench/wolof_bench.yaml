@@ -1,0 +1,5 @@
+group: wolof_bench
+task:
+  - flores_wol
+metadata:
+  version: 1.0
