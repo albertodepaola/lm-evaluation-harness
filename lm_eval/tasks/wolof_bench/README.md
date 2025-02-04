@@ -11,7 +11,6 @@ The datasets included in WolofBench are:
 | FLORES_es | Translation | [The FLORES-101  Evaluation Benchmark for Low-Resource and Multilingual Machine Translation](https://arxiv.org/abs/2106.03193) | https://huggingface.co/datasets/facebook/flores |
 
 
-
 ### Groups and Tasks
 
 #### Groups
@@ -27,6 +26,10 @@ The following tasks evaluate tasks on PortugueseBench dataset using various scor
   - `flores_wo-fr`
   - `flores_en-wo`
   - `flores_fr-wo`
+
+### Running with accelerate
+
+`accelerate launch -m lm_eval --model hf --model_args pretrained=<model_id> --tasks wolof_bench --output_path ./results/ --log_samples --write_out`
 
 ### Checklist
 
