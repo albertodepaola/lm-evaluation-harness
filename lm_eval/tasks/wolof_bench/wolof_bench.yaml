@@ -1,5 +1,8 @@
 group: wolof_bench
 task:
-  - flores_wol
+  - flores_en-wo
+  - flores_fr-wo
+  - flores_wo-en
+  - flores_wo-fr
 metadata:
   version: 1.0

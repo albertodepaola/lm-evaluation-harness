@@ -15,7 +15,7 @@ The datasets included in WolofBench are:
 
 #### Groups
 
-- `flores_wol`: English and French translation tasks from or to Wolof.
+- `wolof_bench`: English and French translation tasks from or to Wolof.
 
 #### Tasks
 
