@@ -11,6 +11,8 @@ target_delimiter: ''
 generation_kwargs:
   until:
     - "\n"
+  do_sample: false
+  temperature: 0.0
 metric_list:
   - metric: bleu
     aggregation: bleu
